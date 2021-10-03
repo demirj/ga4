@@ -16,11 +16,7 @@ for (let i = 1; i <= exceedLimit; i++) {
 
 console.log(itemsObj);
 
-// let ga4Id = 'G-BLKKP3RJVD';
-// let ga4Api = 'mvlzBFr2QrqZB4NFaRh3XQ';
-
-
-fetch(`https://www.google-analytics.com/mp/collect?measurement_id=G-BLKKP3RJVD&api_secret=mvlzBFr2QrqZB4NFaRh3XQ`, {
+fetch(`https://www.google-analytics.com/mp/collect?measurement_id=G-XXX&api_secret=XXX`, {
   method: "POST",
   body: JSON.stringify({
     'client_id': '123.123',
